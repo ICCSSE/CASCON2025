@@ -2,7 +2,7 @@
 title: CASCON 2024 
 ---
 
-{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
+{{< blocks/cover title="34th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
 <p class="lead mt-5"> CASCON 2024
 
 Second Student Centre, York University
