@@ -1,7 +1,6 @@
 ---
 title: Keynote Talks 
 type: docs
-menu: {main: {weight: 20}}
 ---
 <div class="row" style="width: 100%; margin: auto;">
   <div class="col-md-6" style="margin-bottom: 20px; margin-top: 20px;">
