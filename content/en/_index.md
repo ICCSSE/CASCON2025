@@ -2,13 +2,10 @@
 title: CASCON 2025 
 ---
 
-{{< blocks/cover title="34th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
-<p class="lead mt-5"> CASCON 2024
+{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
+<p class="lead mt-5"> CASCON 2025
 
-Second Student Centre, York University
-15 Library Lane, Toronto, Canada
-
-November 11-13, 2024</p>
+</p>
 <!-- {{< blocks/link-down color="info" >}} -->
 {{< /blocks/cover >}}
 
