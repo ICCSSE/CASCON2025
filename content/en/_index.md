@@ -3,7 +3,9 @@ title: CASCON 2025
 ---
 
 {{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
-<p class="lead mt-5"> CASCON 2025
+<p class="lead mt-5"> CASCON 2024
+
+Coming Soon!
 
 </p>
 <!-- {{< blocks/link-down color="info" >}} -->
