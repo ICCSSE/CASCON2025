@@ -1,7 +1,6 @@
 ---
 title: Organization
 type: docs
-menu: {main: {weight: 50}}
 ---
 
 <table class="table">
