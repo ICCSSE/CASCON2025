@@ -1,5 +1,5 @@
 ---
-title: CASCON 2024 
+title: CASCON 2025
 ---
 
 {{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
@@ -14,6 +14,17 @@ title: CASCON 2024
   Call for Papers<i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 
+Important Dates
+{.h3 .text-center}
+<center>
+<table class="table caption-top">
+  <tbody>
+    <tr>
+      <td>Poster (title/abstract) submission</td>
+      <td>Commming Soon!</td>
+    </tr>
+  </tbody>
+</table>
 </center>
 <p class="lead mt-5" align="left" style="margin-bottom:1cm">
 CASCON is a premier academic and industrial conference for advanced studies in computer science and software engineering. Since 1991, CASCON has attracted software developers, researchers, innovators, technologists and decision-makers from academia, industry, and government, who come together to learn about technology trends, present papers, participate in workshops, and exhibit prototypes and solutions.
@@ -34,9 +45,9 @@ Sponsors
 {{% blocks/section type="row" color="white" %}}
 <center>
   {{< card >}}
-<!--<a href=https://cscan-infocan.ca>
+<a href=https://cscan-infocan.ca>
 <img src="sponsors/cs-can.png" style="max-width:80%;max-height=80%;">
-</a>-->
+</a>
   {{< /card >}}
   {{< card >}}
 <a href=https://ieee.org>
