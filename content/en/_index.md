@@ -1,10 +1,14 @@
 ---
-title: CASCON 2025
+title: CASCON 2025 
 ---
 
-{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
-<p class="lead mt-5"> CASCON 2025
-</p>
+{{< blocks/cover title="34th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
+<p class="lead mt-5"> CASCON 2024
+
+Second Student Centre, York University
+15 Library Lane, Toronto, Canada
+
+November 11-13, 2024</p>
 <!-- {{< blocks/link-down color="info" >}} -->
 {{< /blocks/cover >}}
 
@@ -21,11 +25,11 @@ Important Dates
   <tbody>
     <tr>
       <td>Poster (title/abstract) submission</td>
-      <td>Coming soon!</td>
+      <td>Wednesday, August 28, 2024 (Anywhere on Earth) </td>
     </tr>
     <tr>
       <td>Notification of acceptance</td>
-      <td>Coming soon!</td>
+      <td>Monday, September 16, 2024</td>
     </tr>
   </tbody>
 </table>
