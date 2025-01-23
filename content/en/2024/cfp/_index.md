@@ -1,6 +1,10 @@
 ---
 title: Call for Papers 
 type: docs
+menu:
+  2024:
+    weight: 10
+    url: "/2024/"
 ---
 
 {{% blocks/section color="white" %}}
