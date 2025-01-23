@@ -25,11 +25,11 @@ Important Dates
   <tbody>
     <tr>
       <td>Poster (title/abstract) submission</td>
-      <td>Wednesday, August 28, 2024 (Anywhere on Earth) </td>
+      <td>Coming soon!</td>
     </tr>
     <tr>
       <td>Notification of acceptance</td>
-      <td>Monday, September 16, 2024</td>
+      <td>Coming soon!</td>
     </tr>
   </tbody>
 </table>
