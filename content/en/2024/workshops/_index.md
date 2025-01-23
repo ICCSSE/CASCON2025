@@ -1,7 +1,6 @@
 ---
 title: Workshops/Tutorials
 type: docs
-menu: {main: {weight: 10}}
 ---
 
 {{% blocks/section color="white" %}}
