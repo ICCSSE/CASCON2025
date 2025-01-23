@@ -21,7 +21,11 @@ Important Dates
   <tbody>
     <tr>
       <td>Poster (title/abstract) submission</td>
-      <td>Commming Soon!</td>
+      <td>Coming soon!</td>
+    </tr>
+    <tr>
+      <td>Notification of acceptance</td>
+      <td>Coming soon!</td>
     </tr>
   </tbody>
 </table>
