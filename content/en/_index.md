@@ -2,13 +2,9 @@
 title: CASCON 2024 
 ---
 
-{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
-<p class="lead mt-5"> CASCON 2024
-
-Second Student Centre, York University
-15 Library Lane, Toronto, Canada
-
-November 11-13, 2024</p>
+{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" >}}
+<p class="lead mt-5"> CASCON 2025
+</p>
 <!-- {{< blocks/link-down color="info" >}} -->
 {{< /blocks/cover >}}
 
@@ -18,21 +14,6 @@ November 11-13, 2024</p>
   Call for Papers<i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 
-Important Dates
-{.h3 .text-center}
-<center>
-<table class="table caption-top">
-  <tbody>
-    <tr>
-      <td>Poster (title/abstract) submission</td>
-      <td>Wednesday, August 28, 2024 (Anywhere on Earth) </td>
-    </tr>
-    <tr>
-      <td>Notification of acceptance</td>
-      <td>Monday, September 16, 2024</td>
-    </tr>
-  </tbody>
-</table>
 </center>
 <p class="lead mt-5" align="left" style="margin-bottom:1cm">
 CASCON is a premier academic and industrial conference for advanced studies in computer science and software engineering. Since 1991, CASCON has attracted software developers, researchers, innovators, technologists and decision-makers from academia, industry, and government, who come together to learn about technology trends, present papers, participate in workshops, and exhibit prototypes and solutions.
