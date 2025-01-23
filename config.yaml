@@ -13,3 +13,12 @@ module:
   hugoVersion:
     extended: true
     min: 0.110.0
+
+menus:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "2024"
+      url: "/2024/"
+      weight: 2
