@@ -2,7 +2,7 @@
 title: CASCON 2024 
 ---
 
-{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" >}}
+{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
 <p class="lead mt-5"> CASCON 2025
 </p>
 <!-- {{< blocks/link-down color="info" >}} -->
@@ -34,9 +34,9 @@ Sponsors
 {{% blocks/section type="row" color="white" %}}
 <center>
   {{< card >}}
-<a href=https://cscan-infocan.ca>
+<!--<a href=https://cscan-infocan.ca>
 <img src="sponsors/cs-can.png" style="max-width:80%;max-height=80%;">
-</a>
+</a>-->
   {{< /card >}}
   {{< card >}}
 <a href=https://ieee.org>
