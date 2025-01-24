@@ -8,8 +8,8 @@ menu: {main: {weight: 50}}
 <div class="committee-section">
   <h2 class="section-title">General Co-Chairs</h2>
   <ul class="committee-list">
-    <li class="committee-member"><span class="member-name">Hausi Muller</span> – <span class="member-affiliation">University of Victoria</span></li>
     <li class="committee-member"><span class="member-name">Ying Zou</span> – <span class="member-affiliation">Queen's University</span></li>
+    <li class="committee-member"><span class="member-name">Hausi Muller</span> – <span class="member-affiliation">University of Victoria</span></li>
   </ul>
 </div>
 
