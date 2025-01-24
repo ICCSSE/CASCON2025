@@ -2,11 +2,12 @@
 title: CASCON 2025 
 ---
 
-{{< blocks/cover title="35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)" image_anchor="center" height="min" >}}
+{{< blocks/cover image_anchor="center" height="min" >}}
+<h1 class="title">35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)</h1>
 <p class="lead mt-5"> CASCON 2025
 
-...
-...
+Coming
+Soon!
 
 ...</p>
 <!-- {{< blocks/link-down color="info" >}} -->
@@ -50,7 +51,7 @@ Sponsors
 {.h1 .text-center}
 {{% /blocks/section %}}
 
-{{% blocks/section type="row" color="white" %}}
+<!-- {{% blocks/section type="row" color="white" %}}
 <center>
   {{< card >}}
 <a href=https://cscan-infocan.ca>
@@ -70,5 +71,5 @@ Sponsors
 </a>
   {{< /card >}}
 </center>
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->
 
