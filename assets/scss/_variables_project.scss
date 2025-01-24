@@ -118,3 +118,17 @@ ul {
 	font-weight: 300;
 	margin: 0;
 }
+
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+	.title {
+		font-size: 2rem; /* Smaller font size for tablets and phones */
+	}
+}
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 1.5rem; /* Smaller font size for very small screens */
+		line-height: 1.2; /* Adjust line spacing to match */
+	}
+}
