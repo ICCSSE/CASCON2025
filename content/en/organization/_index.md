@@ -5,6 +5,21 @@ menu: {main: {weight: 50}}
 ---
 
 
+<div class="committee-section">
+  <h2 class="section-title">General Co-Chairs</h2>
+  <ul class="committee-list">
+    <li class="committee-member"><span class="member-name">Ying Zou</span> – <span class="member-affiliation">Queen's University</span></li>
+    <li class="committee-member"><span class="member-name">Hausi Muller</span> – <span class="member-affiliation">University of Victoria</span></li>
+  </ul>
+</div>
+
+<div class="committee-section">
+  <h2 class="section-title">Program Co-Chairs</h2>
+  <ul class="committee-list">
+    <li class="committee-member"><span class="member-name">Eleni Stroulia</span> – <span class="member-affiliation">University of Alberta</span></li>
+    <li class="committee-member"><span class="member-name">Jeremy Bradbury</span> – <span class="member-affiliation">Ontario Tech</span></li>
+  </ul>
+</div>
 
 <div class="committee-section">
   <h2 class="section-title">Artifact-Evaluation Co-Chairs</h2>
