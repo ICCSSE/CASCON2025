@@ -44,12 +44,12 @@ We are happy to announce that this year CASCON will be co-located with CSCAN-INF
 <center>
 {{< subscribe >}}
 </center>
-{{% /blocks/lead %}}
+<!-- {{% /blocks/lead %}} -->
 
-{{% blocks/section %}}
+<!-- {{% blocks/section %}}
 Sponsors
 {.h1 .text-center}
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->
 
 <!-- {{% blocks/section type="row" color="white" %}}
 <center>
