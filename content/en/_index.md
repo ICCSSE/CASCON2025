@@ -6,7 +6,7 @@ title: CASCON 2025
 <h1 class="title">35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)</h1>
 <p class="lead mt-5" style="text-align: center; font-size: 2rem; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 255, 0.7); margin-top: 5rem;"> CASCON 2025
 
-<div style="text-align: center; font-size: 2rem; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 255, 0.7);">Second Student Centre, York University
+<div style="text-align: center; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 255, 0.7);">Second Student Centre, York University
 15 Library Lane, Toronto, Canada
   
 November 10-13, 2025</div></p>
