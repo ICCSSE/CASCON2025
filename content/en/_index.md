@@ -4,7 +4,7 @@ title: CASCON 2025
 
 {{< blocks/cover image_anchor="center" height="min" >}}
 <h1 class="title">35th International Conference on Collaborative Advances in Software and COmputiNg (CASCON)</h1>
-<p class="lead mt-5"> CASCON 2025
+<p class="lead mt-5" style="text-align: center; font-size: 2rem; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 255, 255, 0.7); margin-top: 5rem;"> CASCON 2025
 
 Second Student Centre, York University
 15 Library Lane, Toronto, Canada
