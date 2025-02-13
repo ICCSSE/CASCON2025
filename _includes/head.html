@@ -1,26 +1,28 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="common_.css" rel="stylesheet" type="text/css" />
-    <title>CASCON 2025</title>
+   
+    <!-- <title>CASCON 2025</title> -->
+    <title>{{ page.title }}</title>
     <!-- <script type="text/javascript">var show_webdsl_debug=false;</script> -->
-    <link rel="stylesheet" href="styles.css">  <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="comf.css" type="text/css" />
-    <link rel="stylesheet" href="logobar.css" type="text/css" />
-    <link rel="stylesheet" href="theme.css" type="text/css" />
+    <link href="{{ site.baseurl }}/assets/css/common_.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">  <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/comf.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/logobar.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="local_js/twitter-widget-ios-fix.js"></script>
-    <script type="text/javascript" src="local_js/jquery.tablesorter.combined.min.js"></script>
-    <script type="text/javascript" src="local_js/jquery.tablesorter.pager.min.js"></script>
-    <script type="text/javascript" src="local_js/tablesorter-init.js"></script>
-    <script type="text/javascript" src="local_js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="local_js/notify.min.js"></script>
-    <script type="text/javascript" src="local_js/ajax.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/twitter-widget-ios-fix.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/jquery.tablesorter.combined.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/jquery.tablesorter.pager.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/tablesorter-init.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/notify.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/ajax.js"></script>
     <script type="text/javascript">$(document).ready( function(){
               $('#program-menu a[data-fltr-type]').on('click', function(event){
                 event.preventDefault();
@@ -109,4 +111,68 @@
             } )
           }
         </script>
+
+<script type="text/javascript">$(document).ready(function(){
+  $('.carousel').carousel({
+    interval: 10000
+  })
+});
+</script>
+
+<!-- END-->
+<script type="text/javascript">
+  (function() {
+    var post_process_function = function(n) {
+      var node = (n && n.nodeType === 1) ? n : document;
+      let defaultplacement = $(document).scrollLeft() > 100 ? 'auto left' : 'auto top';
+      $(node).find('[title]').each(function(i, el) {
+        var $e = $(el);
+        $e.tooltip({
+          placement: function(tt, elem) {
+            var attval = elem.getAttribute('data-placement');
+            return attval ? attval : defaultplacement;
+          },
+          sanitize: false,
+          container: 'body'
+        })
+      }).on('show.bs.tooltip', function() {
+        let el = this;
+        while (el && window.getComputedStyle(el).position !== 'fixed') {
+          el = el.parentElement;
+        }
+        if (el) $(this).data('bs.tooltip').options.container = el;
+      });
+      $('.tooltip.fade.in, .ui-tooltip-content').remove();
+    };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function() {
+      original_post_process_func.apply(this, arguments);
+      post_process_function.apply(this, arguments);
+    };
+    $(document).ready(post_process_function);
+  })();
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+      var href = $(this).attr("href");
+      if (window.location.href.indexOf(href) < 0) {
+        if ($(this).hasClass('new-window')) {
+          window.open(href);
+        } else {
+          window.document.location = href;
+        }
+      }
+    });
+  });
+</script>
+<script type="text/javascript">
+  $('.modal').on('show.bs.modal', function() {
+    $(this).find('img[url]').each(function() {
+      this.src = this.getAttribute('url');
+      this.removeAttribute('url');
+    })
+  });
+</script>
+
     </head>

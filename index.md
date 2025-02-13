@@ -1,4 +1,4 @@
 ---
 layout: home
-title: "Happy Jekylling!"
+title: "CASCON 2025"
 ---

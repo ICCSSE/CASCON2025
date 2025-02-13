@@ -5,88 +5,12 @@
 
 <body id="home"><div class="frame">
 
+{%- include logobar.html -%}
 
-  
-
-<div class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div id="navigationbar" class="navigationbar collapse navbar-collapse">
-      <ul class="block nav navbar-nav">
-        <li class="block"><a href="index.html" class="navigate">Home</a></li>
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a>
-          <ul class="block dropdown-menu">
-            <li class="block"><a href="" class="navigate">Registration</a></li>
-            <li class="block"><a href="" class="navigate">Accommodation</a></li>
-          </ul>
-        </li>
-        <li class="block"><a href="" class="navigate">Sponsorship</a></li>
-        <li class="block"><a href="organization.html" class="navigate">Organization</a></li>
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a>
-          <ul id="program-menu" class="block dropdown-menu">
-            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Mon 6 Nov 2025" class="navigate">Mon 10 Nov</a></li>
-            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Tue 8 Nov 2025" class="navigate">Tue 11 Nov</a></li>
-            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Wed 9 Nov 2025" class="navigate">Wed 12 Nov</a></li>
-            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Thu 9 Nov 2025" class="navigate">Thu 13 Nov</a></li>
-          </ul>
-        </li>
-        <li id="tracks-in-navbar" class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a>
-          <ul class="block dropdown-menu multi-column columns-3">
-            <div class="row">
-              <div class="col-sm-5">
-                <ul class="block multi-column-dropdown">
-                  <li class="block dropdown-header">CASCON 2025</li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>Workshops</strong></a>
-                    <ul class="block dropdown-menu">
-                      <!-- <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li> -->
-                      <li class="block"><a href="workshops.html" class="navigate">Call for papers</a></li>
-                    </ul>
-                  </li>
-                  <li class="block"><a href="" class="navigate">Research Track</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-7">
-                <ul class="block multi-column-dropdown">
-                  <li class="block dropdown-header">Co-hosted Conferences</li>
-                  <!-- <li class="dropdown dropdown-submenu">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>TEST</strong></a>
-                    <ul class="block dropdown-menu">
-                      <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li>
-                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Research Track</a></li>
-                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Engineering Track</a></li>
-                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Tool Demos Track</a></li>
-                    </ul>
-                  </li> -->
-                </ul>
-              </div>
-            </div>
-          </ul>
-        </li>
-        <li class="block"><a href="series.html" class="navigate">Series</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-  
-  <script type="text/javascript">$(document).ready(function(){
-      $('.carousel').carousel({
-        interval: 10000
-      })
-    });
-  </script>
+{%- include navbar.html -%}
   
   
+<!-- SLIDE SHOW -->
 <div id="carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-ride="carousel" class="carousel slide carousel-fade">
   <ol class="carousel-indicators">
     <li data-target="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide-to="0" class="active"></li>
@@ -101,6 +25,9 @@
   <a href="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide="prev" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a>
   <a href="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide="next" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
+<!-- SLIDE SHOW -->
+
+
 <div id="content" class="container"><div class="row">
 <div class="col-sm-7">
   <div class="row">
@@ -125,20 +52,57 @@
           </div>
       </div>
       <table class="table table-hover ">
-      <tr href="workshops.html" class="clickable-row">
-          <td>Mon 9 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
-              <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-              <em class="text-primary">Workshop Acceptance Notification</em>
-          </td>
-      </tr>
-      <tr href="workshops.html" class="clickable-row">
-        <td>Mon 26 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
-            <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-            <em class="text-primary">Workshop Proposal Submission Deadline</em>
-        </td>
-      </tr>
-      
-      </table>
+        <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
+            <td> 11 Aug 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Artifacts Notification</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
+            <td> 23 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Artifacts Full Submission Due</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
+            <td> 9 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Workshop Acceptance Notification</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
+            <td> 6 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Artifacts Abstract Due</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
+            <td> 2 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Tutorials Acceptance Notification</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
+            <td> 26 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Workshop Proposal Submission Deadline</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
+            <td> 19 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Tutorials Full Proposal Due</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
+            <td> 12 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Tutorials Proposal Abstract Due</em>
+            </td>
+        </tr>
+    </table>
+    
+    
     </div>
     <div class="panel panel-primary">
         <div class="panel-heading clearfix">
@@ -148,7 +112,9 @@
         </div>
         <div class="panel-body">
             <div class="all-tracks">
-                <a href="workshops.html" class="text-muted navigate">Workshops</a>
+                <a href="{{ site.baseurl }}/tracks/workshops" class="text-muted navigate">Workshops</a> |
+                <a href="{{ site.baseurl }}/tracks/tutorials" class="text-muted navigate">Tutorials</a> |
+                <a href="{{ site.baseurl }}/tracks/artifacts" class="text-muted navigate">Artifacts</a>
             </div>
         </div>
     </div>
@@ -169,86 +135,10 @@
     </div>
     
 </div>
-<div id="messages-placeholder" class="alert alert-warning" style="display:none;">
-    <a data-dismiss="alert" class="close">x</a><em>Thu 6 Feb 00:00</em>
-</div>
-<div id="notifications-ph" class="webdsl-placeholder"></div>
-
-</script>
 
 </div>
-<!-- FOOTER -->
-<footer class="footer-bar">
-  <div class="container-fluid"> <!-- Change from container to container-fluid -->
-    <div class="footer-box">
-      <div class="row">
-        <div class="col-12"> <!-- Ensure full width on all screen sizes -->
-          <h3>
-            <a href="index.html" class="navigate">
-              <span class="glyphicon glyphicon-home"></span> CASCON 2025
-            </a>
-          </h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- FOOTER -->
 
+{% include footer.html %}
 
-<script type="text/javascript">
-  (function() {
-    var post_process_function = function(n) {
-      var node = (n && n.nodeType === 1) ? n : document;
-      let defaultplacement = $(document).scrollLeft() > 100 ? 'auto left' : 'auto top';
-      $(node).find('[title]').each(function(i, el) {
-        var $e = $(el);
-        $e.tooltip({
-          placement: function(tt, elem) {
-            var attval = elem.getAttribute('data-placement');
-            return attval ? attval : defaultplacement;
-          },
-          sanitize: false,
-          container: 'body'
-        })
-      }).on('show.bs.tooltip', function() {
-        let el = this;
-        while (el && window.getComputedStyle(el).position !== 'fixed') {
-          el = el.parentElement;
-        }
-        if (el) $(this).data('bs.tooltip').options.container = el;
-      });
-      $('.tooltip.fade.in, .ui-tooltip-content').remove();
-    };
-    var original_post_process_func = ajax_post_process;
-    ajax_post_process = function() {
-      original_post_process_func.apply(this, arguments);
-      post_process_function.apply(this, arguments);
-    };
-    $(document).ready(post_process_function);
-  })();
-</script>
-<script type="text/javascript">
-  jQuery(document).ready(function($) {
-    $(".clickable-row").click(function() {
-      var href = $(this).attr("href");
-      if (window.location.href.indexOf(href) < 0) {
-        if ($(this).hasClass('new-window')) {
-          window.open(href);
-        } else {
-          window.document.location = href;
-        }
-      }
-    });
-  });
-</script>
-<script type="text/javascript">
-  $('.modal').on('show.bs.modal', function() {
-    $(this).find('img[url]').each(function() {
-      this.src = this.getAttribute('url');
-      this.removeAttribute('url');
-    })
-  });
-</script>
 </body>
 </html>
