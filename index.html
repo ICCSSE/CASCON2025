@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="local_js/twitter-widget-ios-fix.js"></script>
 <script type="text/javascript" src="local_js/jquery.tablesorter.combined.min.js"></script>
@@ -121,7 +122,7 @@
             CASCON 2025
         </a>
         <div class="subtitle">
-            35th International Conference on Collaborative Advances in Software and Computing
+            35th IEEE International Conference on Collaborative Advances in Software and Computing
         </div>
         <div class="location">
             Second Student Centre, York University  
@@ -148,6 +149,7 @@
       </div>
       <div id="navigationbar" class="navigationbar collapse navbar-collapse">
         <ul class="block nav navbar-nav">
+          <li class="block"><a href="index.html" class="navigate">Home</a></li>
           <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a>
             <ul class="block dropdown-menu">
@@ -160,8 +162,7 @@
           <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a>
             <ul id="program-menu" class="block dropdown-menu">
-              <li class="block"><a href="" class="navigate">Workoshop</a></li>
-              <li class="block"><a href="" class="navigate">Keynotes</a></li>
+              <li class="block"><a href="workshops.html" class="navigate">Workoshop</a></li>
               <li class="block divider"></li>
               <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Mon 6 Nov 2025" class="navigate">Mon 10 Nov</a></li>
               <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Tue 8 Nov 2025" class="navigate">Tue 11 Nov</a></li>
@@ -268,6 +269,30 @@
             </tr>
         </table>
     </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading clearfix">
+          <div class="panel-title">
+              <span class="glyphicon glyphicon-bullhorn"></span> 
+              <a href="#" class="navigate">Important Dates</a>
+          </div>
+      </div>
+      <table class="table table-hover ">
+      <tr href="workshops.html" class="clickable-row">
+          <td>Mon 9 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+              <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+              <em class="text-primary">Workshop Acceptance Notification</em>
+          </td>
+      </tr>
+      <tr href="workshops.html" class="clickable-row">
+        <td>Mon 26 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+            <em class="text-primary">Workshop Proposal Submission Deadline</em>
+        </td>
+    </tr>
+      
+      </table>
+  </div>
+    
 </div>
 <div id="messages-placeholder" class="alert alert-warning" style="display:none;">
     <a data-dismiss="alert" class="close">x</a><em>Thu 6 Feb 00:00</em>
@@ -277,7 +302,7 @@
 </script>
 <footer class="footer">
   <div class="container">
-    <div class="footer-box">
+    <div class="footer-box col-sm-12">
       <div class="row">
         <div class="col-sm-3">
           <h3>
@@ -307,6 +332,7 @@
     </div>
   </div>
 </footer>
+
 </div>
 <script type="text/javascript">
   (function() {
