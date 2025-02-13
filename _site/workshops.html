@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="common_.css" rel="stylesheet" type="text/css" />
+<title>CASCON 2025</title>
+<!-- <script type="text/javascript">var show_webdsl_debug=false;</script> -->
+<link rel="stylesheet" href="styles.css">  <!-- Link to the external CSS file -->
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="comf.css" type="text/css" />
+<link rel="stylesheet" href="logobar.css" type="text/css" />
+<link rel="stylesheet" href="theme.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="local_js/twitter-widget-ios-fix.js"></script>
+<script type="text/javascript" src="local_js/jquery.tablesorter.combined.min.js"></script>
+<script type="text/javascript" src="local_js/jquery.tablesorter.pager.min.js"></script>
+<script type="text/javascript" src="local_js/tablesorter-init.js"></script>
+<script type="text/javascript" src="local_js/bootstrap.min.js"></script>
+<script type="text/javascript" src="local_js/notify.min.js"></script>
+<script type="text/javascript" src="local_js/ajax.js"></script>
+<script type="text/javascript">$(document).ready( function(){
+          $('#program-menu a[data-fltr-type]').on('click', function(event){
+            event.preventDefault();
+            window.location = $(this).attr('href') + "?" + encodeURIComponent( $(this).data('fltr-type') ) + '=' + encodeURIComponent( $(this).data('fltr-val') );
+          })
+        })
+      </script>
+<script type="text/javascript">(function($){
+        $(document).ready(function(){
+          $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+            $(this).parent().siblings().removeClass('open');
+            $(this).parent().toggleClass('open');
+          });
+        });
+      })(jQuery);
+      </script>
+<script type="text/javascript">
+  $(window).on('popstate', function () {
+    $('.modal.in').modal('hide');
+  });
+</script>
+
+<script type="text/javascript">
+  (function () {
+    var post_process_function = function (n) {
+      var node = (n && n.nodeType === 1) ? n : document;
+
+      $(node).find('.modal')
+        .on('shown.bs.modal', function () {
+          if (history.pushState) {
+            history.pushState(
+              { id: 'modal', modalId: $(this).attr('id') },
+              null,
+              window.location.href
+            );
+          }
+        })
+        .on('hidden.bs.modal', function () {
+          if (history.state != null && history.state.modalId == $(this).attr('id')) {
+            history.back();
+          }
+        });
+    };
+
+    var original_post_process_func = ajax_post_process;
+    
+    ajax_post_process = function () {
+      original_post_process_func.apply(this, arguments);
+      post_process_function.apply(this, arguments);
+    };
+
+    $(document).ready(post_process_function);
+  })();
+</script>
+
+<script type="text/javascript">function addEventModalLoadOnClick( containerNode ){
+        $(containerNode).find( "a[data-event-modal]" ).on("click", function(e){
+          var eventId = $(this).data("event-modal"); 
+          var modalElem = $("#modal-" + eventId);
+          if(modalElem.length){
+            modalElem.modal({ backdrop: 'static', keyboard: true}, 'show');
+          } else {
+            var loaderElem = $("#event-modal-loader");
+            loaderElem.find("input.event-id-input").val( eventId );
+            loaderElem.find("#load-modal-action").click();
+          }
+          e.preventDefault();
+        } );
+      }
+    </script><script type="text/javascript">function addStarredEventOnClick( containerNode ){
+        $(containerNode).find( "[data-event-star]" ).on("click", function(e){
+          var eventId = $(this).data("event-star"); 
+          var starEventFormElem = $("#event-star-form");
+          starEventFormElem.find("input.event-id-input").val( eventId );
+          starEventFormElem.find("#star-event-action").click();
+          e.preventDefault();
+          e.stopPropagation();
+        } );
+      }
+    </script><script type="text/javascript">function pauseOnCloseModal( modalid ){
+        //pauses video (only youtube at the moment) when closing modal
+        $('#' + modalid).on('hidden.bs.modal', function () {
+          $(this).find('.embed-container iframe[src*=enablejsapi]').each( function(){ this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*') } );
+        } )
+      }
+    </script>
+</head>
+<body id="home"><div class="frame">
+
+  <div class="logobar">
+    <div class="container">
+        <a href="index.html" class="conference-title">
+            CASCON 2025
+        </a>
+        <div class="subtitle">
+            35th IEEE International Conference on Collaborative Advances in Software and Computing
+        </div>
+        <div class="location">
+            Second Student Centre, York University  
+            <br>
+            15 Library Lane, Toronto, Canada  
+        </div>
+        <div class="date">
+             November 10-13, 2025
+        </div>
+    </div>
+</div>
+
+  
+
+  <div class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navigationbar" class="navigationbar collapse navbar-collapse">
+        <ul class="block nav navbar-nav">
+          <li class="block"><a href="index.html" class="navigate">Home</a></li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a>
+            <ul class="block dropdown-menu">
+              <li class="block"><a href="" class="navigate">Registration</a></li>
+              <li class="block"><a href="" class="navigate">Accommodation</a></li>
+            </ul>
+          </li>
+          <li class="block"><a href="" class="navigate">Sponsorship</a></li>
+          <li class="block"><a href="organization.html" class="navigate">Organization</a></li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a>
+            <ul id="program-menu" class="block dropdown-menu">
+              <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Mon 6 Nov 2025" class="navigate">Mon 10 Nov</a></li>
+              <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Tue 8 Nov 2025" class="navigate">Tue 11 Nov</a></li>
+              <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Wed 9 Nov 2025" class="navigate">Wed 12 Nov</a></li>
+              <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Thu 9 Nov 2025" class="navigate">Thu 13 Nov</a></li>
+            </ul>
+          </li>
+          <li id="tracks-in-navbar" class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a>
+            <ul class="block dropdown-menu multi-column columns-3">
+              <div class="row">
+                <div class="col-sm-5">
+                  <ul class="block multi-column-dropdown">
+                    <li class="block dropdown-header">CASCON 2025</li>
+                    <li class="dropdown dropdown-submenu">
+                      <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>Workshops</strong></a>
+                      <ul class="block dropdown-menu">
+                        <!-- <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li> -->
+                        <li class="block"><a href="workshops.html" class="navigate">Call for papers</a></li>
+                      </ul>
+                    </li>
+                    <li class="block"><a href="" class="navigate">Research Track</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-7">
+                  <ul class="block multi-column-dropdown">
+                    <li class="block dropdown-header">Co-hosted Conferences</li>
+                    <!-- <li class="dropdown dropdown-submenu">
+                      <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>TEST</strong></a>
+                      <ul class="block dropdown-menu">
+                        <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li>
+                        <li class="block"><a href="" class="navigate"><strong>TEST</strong> Research Track</a></li>
+                        <li class="block"><a href="" class="navigate"><strong>TEST</strong> Engineering Track</a></li>
+                        <li class="block"><a href="" class="navigate"><strong>TEST</strong> Tool Demos Track</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
+          <li class="block"><a href="series.html" class="navigate">Series</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script type="text/javascript">$(document).ready(function(){
+      $('.carousel').carousel({
+        interval: 10000
+      })
+    });
+  </script>
+  
+ 
+  <div id="content" class="container"><div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="page-header"><h1>CALL FOR WORKSHOPS</h1></div>
+      </div>
+    </div>
+    <p><span style="font-weight: 400;">We are excited to announce that this year IEEE CASCON 2025 will host a series of workshops. CASCON is a premier academic and industrial conference for advanced studies in computer science and software engineering. The workshops will provide a forum to present, discuss, and debate issues, problems, ideas, technology gaps, work-in-progress, and/or directions. The format of a workshop may include position papers, expert panels, hands-on exercises, and discussions. Workshops may be half-day or full-day.</span></p>
+    <p><span style="font-weight: 400;">Workshops can be structured around invited talks, and/or workshop paper presentations. The intent is to stir discussion and debate new ideas on emerging research areas, challenging problems, and industrial applications.</span></p>
+    <ul>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">For workshops structured around invited talks, the organizers are expected to identify and invite experts in the field.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">For workshops structured around workshop paper submissions, the organizers are expected to issue a call for papers which can be submitted through IEEE CASCON's EasyChair site.</span></li>
+    </ul>
+    <p><strong>Workshop proposals should include:</strong></p>
+    <p><span style="font-weight: 400;">Proposals for workshops should be organized as a preliminary call for papers or call for participation, depending on the intended format of the workshop, with a maximum of two pages and contain the following information:</span></p>
+    <ul>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Title of the workshop.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">A brief technical description of the workshop, specifying the workshop goals, the technical issues that it will address, and the relevance of the workshop to the main conference.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">The names, affiliations and email addresses of the proposed workshop organizing committee. We strongly encourage the organizing committee to consist of at least two people coming from multiple institutions knowledgeable about the technical issues to be addressed.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Expected duration of the workshop (half or full day). Half-day workshops are expected to be assigned at least 2.5h, while full-day workshops are expected to be assigned at least five hours.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Workshop format: panel discussion, invited speaker presentations, and paper submission-based.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">The workshop deadlines, both internal and external, aligned with the CASCON timeline.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">List of potential invited speakers, panelists, or disputants.</span></li>
+    </ul>
+    <p><span style="font-weight: 400;">Please also provide the following information (not restricted to the two pages for the above proposal):</span></p>
+    <ul>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">For workshops that are in their second edition or later: information about previous offerings of the proposed workshop: when and where it has been offered in the past, names and affiliations of organizers, number of attendees.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">For new workshops, which would be in the first edition if accepted: the list of researchers/practitioners who would be likely to submit a paper to the workshop or are going to be invited to present.</span></li>
+    </ul>
+    <p><span style="font-weight: 400;">NOTE</span></p>
+    <ol>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">The workshop proposals will be published in the proceedings after a peer review.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">The organisers of the accepted Workshop based on invited talk will have the opportunity to write a 2-page summary of the activities and findings after the workshop is completed. This document will be published in the proceedings after a peer review.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Accepted workshop papers can be published in the proceedings and submitted for inclusion to IEEE Xplore. This will depend on the discretion of each workshop organizer. Papers must thus be in the same format as the conference proceedings and may not be more than 6 pages in length. All papers must be reviewed by an International Technical Program Committee with a minimum of 3 reviews per paper.</span></li>
+    </ol>
+    <p><strong>Key Dates:</strong></p>
+    <ul>
+    <li style="font-weight: 400;"><strong>Proposal submission deadline: May 26, 2025</strong></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Acceptance notification: June 9, 2025</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Workshops dates: November 10-13</span></li>
+    </ul>
+    <p><span style="font-weight: 400;">We will have an ongoing evaluation of the proposals after their submissions.</span></p>
+    <p><strong>Proposal Submission Instructions</strong></p>
+    <p><span style="font-weight: 400;">To submit a workshop proposal please access [TODO: add link] and select: "Workshops". Proposals for workshops should be organized as a preliminary call for papers or call for participation, depending on the intended format of the workshop, with a maximum of two pages. More details can be found from: https://cascon.ca/workshops/</span></p>
+    <p><strong>Contacts and More Information</strong></p>
+    <ul>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">If you have any questions, please contact the workshop chairs.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">Visit our CASCON website for updates: https://cascon.ca/workshops/</span></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><strong>CASCON 2025 Workshop Chairs</strong></p>
+    <p><span style="font-weight: 400;">Guy-Vincent Jourdan, Professor, University of Ottawa, Canada</span></p>
+    <p><span style="font-weight: 400;">Gias Uddin, Assistant Professor, York University, Canada</span></p>
+  </div>
+  
+  
+
+  </div>
+</div>
+
+</script>
+
+
+</div>
+<!-- FOOTER -->
+<footer class="footer-bar">
+  <div class="container-fluid"> <!-- Change from container to container-fluid -->
+    <div class="footer-box">
+      <div class="row">
+        <div class="col-12"> <!-- Ensure full width on all screen sizes -->
+          <h3>
+            <a href="index.html" class="navigate">
+              <span class="glyphicon glyphicon-home"></span> CASCON 2025
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER -->
+
+<script type="text/javascript">
+  (function() {
+    var post_process_function = function(n) {
+      var node = (n && n.nodeType === 1) ? n : document;
+      let defaultplacement = $(document).scrollLeft() > 100 ? 'auto left' : 'auto top';
+      $(node).find('[title]').each(function(i, el) {
+        var $e = $(el);
+        $e.tooltip({
+          placement: function(tt, elem) {
+            var attval = elem.getAttribute('data-placement');
+            return attval ? attval : defaultplacement;
+          },
+          sanitize: false,
+          container: 'body'
+        })
+      }).on('show.bs.tooltip', function() {
+        let el = this;
+        while (el && window.getComputedStyle(el).position !== 'fixed') {
+          el = el.parentElement;
+        }
+        if (el) $(this).data('bs.tooltip').options.container = el;
+      });
+      $('.tooltip.fade.in, .ui-tooltip-content').remove();
+    };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function() {
+      original_post_process_func.apply(this, arguments);
+      post_process_function.apply(this, arguments);
+    };
+    $(document).ready(post_process_function);
+  })();
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+      var href = $(this).attr("href");
+      if (window.location.href.indexOf(href) < 0) {
+        if ($(this).hasClass('new-window')) {
+          window.open(href);
+        } else {
+          window.document.location = href;
+        }
+      }
+    });
+  });
+</script>
+<script type="text/javascript">
+  $('.modal').on('show.bs.modal', function() {
+    $(this).find('img[url]').each(function() {
+      this.src = this.getAttribute('url');
+      this.removeAttribute('url');
+    })
+  });
+</script>
+</body>
+</html>

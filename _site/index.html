@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="common_.css" rel="stylesheet" type="text/css" />
+    <title>CASCON 2025</title>
+    <!-- <script type="text/javascript">var show_webdsl_debug=false;</script> -->
+    <link rel="stylesheet" href="styles.css">  <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="comf.css" type="text/css" />
+    <link rel="stylesheet" href="logobar.css" type="text/css" />
+    <link rel="stylesheet" href="theme.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="local_js/twitter-widget-ios-fix.js"></script>
+    <script type="text/javascript" src="local_js/jquery.tablesorter.combined.min.js"></script>
+    <script type="text/javascript" src="local_js/jquery.tablesorter.pager.min.js"></script>
+    <script type="text/javascript" src="local_js/tablesorter-init.js"></script>
+    <script type="text/javascript" src="local_js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="local_js/notify.min.js"></script>
+    <script type="text/javascript" src="local_js/ajax.js"></script>
+    <script type="text/javascript">$(document).ready( function(){
+              $('#program-menu a[data-fltr-type]').on('click', function(event){
+                event.preventDefault();
+                window.location = $(this).attr('href') + "?" + encodeURIComponent( $(this).data('fltr-type') ) + '=' + encodeURIComponent( $(this).data('fltr-val') );
+              })
+            })
+          </script>
+    <script type="text/javascript">(function($){
+            $(document).ready(function(){
+              $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+                event.preventDefault(); 
+                event.stopPropagation(); 
+                $(this).parent().siblings().removeClass('open');
+                $(this).parent().toggleClass('open');
+              });
+            });
+          })(jQuery);
+          </script>
+    <script type="text/javascript">
+      $(window).on('popstate', function () {
+        $('.modal.in').modal('hide');
+      });
+    </script>
+    
+    <script type="text/javascript">
+      (function () {
+        var post_process_function = function (n) {
+          var node = (n && n.nodeType === 1) ? n : document;
+    
+          $(node).find('.modal')
+            .on('shown.bs.modal', function () {
+              if (history.pushState) {
+                history.pushState(
+                  { id: 'modal', modalId: $(this).attr('id') },
+                  null,
+                  window.location.href
+                );
+              }
+            })
+            .on('hidden.bs.modal', function () {
+              if (history.state != null && history.state.modalId == $(this).attr('id')) {
+                history.back();
+              }
+            });
+        };
+    
+        var original_post_process_func = ajax_post_process;
+        
+        ajax_post_process = function () {
+          original_post_process_func.apply(this, arguments);
+          post_process_function.apply(this, arguments);
+        };
+    
+        $(document).ready(post_process_function);
+      })();
+    </script>
+    
+    <script type="text/javascript">function addEventModalLoadOnClick( containerNode ){
+            $(containerNode).find( "a[data-event-modal]" ).on("click", function(e){
+              var eventId = $(this).data("event-modal"); 
+              var modalElem = $("#modal-" + eventId);
+              if(modalElem.length){
+                modalElem.modal({ backdrop: 'static', keyboard: true}, 'show');
+              } else {
+                var loaderElem = $("#event-modal-loader");
+                loaderElem.find("input.event-id-input").val( eventId );
+                loaderElem.find("#load-modal-action").click();
+              }
+              e.preventDefault();
+            } );
+          }
+        </script><script type="text/javascript">function addStarredEventOnClick( containerNode ){
+            $(containerNode).find( "[data-event-star]" ).on("click", function(e){
+              var eventId = $(this).data("event-star"); 
+              var starEventFormElem = $("#event-star-form");
+              starEventFormElem.find("input.event-id-input").val( eventId );
+              starEventFormElem.find("#star-event-action").click();
+              e.preventDefault();
+              e.stopPropagation();
+            } );
+          }
+        </script><script type="text/javascript">function pauseOnCloseModal( modalid ){
+            //pauses video (only youtube at the moment) when closing modal
+            $('#' + modalid).on('hidden.bs.modal', function () {
+              $(this).find('.embed-container iframe[src*=enablejsapi]').each( function(){ this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*') } );
+            } )
+          }
+        </script>
+    </head><body id="home"><div class="frame">
+
+  <div class="logobar">
+    <div class="container">
+        <a href="index.html" class="conference-title">
+            CASCON 2025
+        </a>
+        <div class="subtitle">
+            35th IEEE International Conference on Collaborative Advances in Software and Computing
+        </div>
+        <div class="location">
+            Second Student Centre, York University  
+            <br>
+            15 Library Lane, Toronto, Canada  
+        </div>
+        <div class="date">
+             November 10-13, 2025
+        </div>
+    </div>
+</div>
+
+  
+
+<div class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#navigationbar" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navigationbar" class="navigationbar collapse navbar-collapse">
+      <ul class="block nav navbar-nav">
+        <li class="block"><a href="index.html" class="navigate">Home</a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Attending <span class="caret"></span></a>
+          <ul class="block dropdown-menu">
+            <li class="block"><a href="" class="navigate">Registration</a></li>
+            <li class="block"><a href="" class="navigate">Accommodation</a></li>
+          </ul>
+        </li>
+        <li class="block"><a href="" class="navigate">Sponsorship</a></li>
+        <li class="block"><a href="organization.html" class="navigate">Organization</a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Program <span class="caret"></span></a>
+          <ul id="program-menu" class="block dropdown-menu">
+            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Mon 6 Nov 2025" class="navigate">Mon 10 Nov</a></li>
+            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Tue 8 Nov 2025" class="navigate">Tue 11 Nov</a></li>
+            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Wed 9 Nov 2025" class="navigate">Wed 12 Nov</a></li>
+            <li class="block"><a href="#" data-fltr-type="date" data-fltr-val="Thu 9 Nov 2025" class="navigate">Thu 13 Nov</a></li>
+          </ul>
+        </li>
+        <li id="tracks-in-navbar" class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracks <span class="caret"></span></a>
+          <ul class="block dropdown-menu multi-column columns-3">
+            <div class="row">
+              <div class="col-sm-5">
+                <ul class="block multi-column-dropdown">
+                  <li class="block dropdown-header">CASCON 2025</li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>Workshops</strong></a>
+                    <ul class="block dropdown-menu">
+                      <!-- <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li> -->
+                      <li class="block"><a href="workshops.html" class="navigate">Call for papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="block"><a href="" class="navigate">Research Track</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-7">
+                <ul class="block multi-column-dropdown">
+                  <li class="block dropdown-header">Co-hosted Conferences</li>
+                  <!-- <li class="dropdown dropdown-submenu">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><strong>TEST</strong></a>
+                    <ul class="block dropdown-menu">
+                      <li class="block"><a href="TEST-2024.html" class="navigate"><span class="glyphicon glyphicon-home"></span> TEST</a></li>
+                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Research Track</a></li>
+                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Engineering Track</a></li>
+                      <li class="block"><a href="" class="navigate"><strong>TEST</strong> Tool Demos Track</a></li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="block"><a href="series.html" class="navigate">Series</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+  
+  <script type="text/javascript">$(document).ready(function(){
+      $('.carousel').carousel({
+        interval: 10000
+      })
+    });
+  </script>
+  
+  
+<div id="carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-ride="carousel" class="carousel slide carousel-fade">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner" style="background-color: #FFF;">
+    <div class="item active"><div class="fill" style="background-image:url('images/toronto-header.jpg');"></div>
+      <div class="attribution">
+      </div>
+      <div class="carousel-caption"><h3>Toronto</h3><h5><p>Skyline Viewpoint</p></h5></div>
+    </div>
+  </div>
+  <a href="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide="prev" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a href="#carousel-d90bafdc-f6ff-491f-b1fb-310b807defe0" data-slide="next" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<div id="content" class="container"><div class="row">
+<div class="col-sm-7">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="page-header"><h1>CASCON 2025</h1></div>
+    </div>
+  </div>
+</div>
+<div class="col-sm-4 col-sm-offset-1 sidebar">
+    <div class="panel panel-warning">
+        <div class="panel-heading clearfix">
+            <div class="panel-title">Supporters</div>
+        </div>
+        <table class="table table-hover">
+        </table>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading clearfix">
+          <div class="panel-title">
+              <span class="glyphicon glyphicon-bullhorn"></span> 
+              <a href="#" class="navigate">Important Dates</a>
+          </div>
+      </div>
+      <table class="table table-hover ">
+      <tr href="workshops.html" class="clickable-row">
+          <td>Mon 9 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+              <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+              <em class="text-primary">Workshop Acceptance Notification</em>
+          </td>
+      </tr>
+      <tr href="workshops.html" class="clickable-row">
+        <td>Mon 26 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+            <em class="text-primary">Workshop Proposal Submission Deadline</em>
+        </td>
+      </tr>
+      
+      </table>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading clearfix">
+            <div class="panel-title">
+                <span class="glyphicon glyphicon-road"></span>Tracks
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="all-tracks">
+                <a href="workshops.html" class="text-muted navigate">Workshops</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading clearfix">
+            <div class="panel-title">
+                <span class="glyphicon glyphicon-bullhorn"></span> 
+                <a href="#" class="navigate">News</a>
+            </div>
+        </div>
+        <table class="table table-hover">
+            <tr href="" class="clickable-row">
+                <!-- <td> Discount
+                    <span class="pull-right"><small class="text-muted">Tue 3 Sep 2025</small></span>
+                </td> -->
+            </tr>
+        </table>
+    </div>
+    
+</div>
+<div id="messages-placeholder" class="alert alert-warning" style="display:none;">
+    <a data-dismiss="alert" class="close">x</a><em>Thu 6 Feb 00:00</em>
+</div>
+<div id="notifications-ph" class="webdsl-placeholder"></div>
+
+</script>
+
+</div>
+<!-- FOOTER -->
+<footer class="footer-bar">
+  <div class="container-fluid"> <!-- Change from container to container-fluid -->
+    <div class="footer-box">
+      <div class="row">
+        <div class="col-12"> <!-- Ensure full width on all screen sizes -->
+          <h3>
+            <a href="index.html" class="navigate">
+              <span class="glyphicon glyphicon-home"></span> CASCON 2025
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER -->
+
+
+<script type="text/javascript">
+  (function() {
+    var post_process_function = function(n) {
+      var node = (n && n.nodeType === 1) ? n : document;
+      let defaultplacement = $(document).scrollLeft() > 100 ? 'auto left' : 'auto top';
+      $(node).find('[title]').each(function(i, el) {
+        var $e = $(el);
+        $e.tooltip({
+          placement: function(tt, elem) {
+            var attval = elem.getAttribute('data-placement');
+            return attval ? attval : defaultplacement;
+          },
+          sanitize: false,
+          container: 'body'
+        })
+      }).on('show.bs.tooltip', function() {
+        let el = this;
+        while (el && window.getComputedStyle(el).position !== 'fixed') {
+          el = el.parentElement;
+        }
+        if (el) $(this).data('bs.tooltip').options.container = el;
+      });
+      $('.tooltip.fade.in, .ui-tooltip-content').remove();
+    };
+    var original_post_process_func = ajax_post_process;
+    ajax_post_process = function() {
+      original_post_process_func.apply(this, arguments);
+      post_process_function.apply(this, arguments);
+    };
+    $(document).ready(post_process_function);
+  })();
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+      var href = $(this).attr("href");
+      if (window.location.href.indexOf(href) < 0) {
+        if ($(this).hasClass('new-window')) {
+          window.open(href);
+        } else {
+          window.document.location = href;
+        }
+      }
+    });
+  });
+</script>
+<script type="text/javascript">
+  $('.modal').on('show.bs.modal', function() {
+    $(this).find('img[url]').each(function() {
+      this.src = this.getAttribute('url');
+      this.removeAttribute('url');
+    })
+  });
+</script>
+</body>
+</html>
