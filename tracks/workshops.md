@@ -71,9 +71,9 @@ title: "Workshops"
         </div>
         <table class="table table-hover">
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
-                <td>November 10-13, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <td>May 26, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                     <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                    <em class="text-primary">Workshops Dates</em>
+                    <em class="text-primary">Proposal Submission Deadline</em>
                 </td>
             </tr>
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
@@ -83,9 +83,9 @@ title: "Workshops"
                 </td>
             </tr>
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
-                <td>May 26, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <td>November 10-13, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                     <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                    <em class="text-primary">Proposal Submission Deadline</em>
+                    <em class="text-primary">Workshops Dates</em>
                 </td>
             </tr>
         </table>

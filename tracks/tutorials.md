@@ -108,9 +108,9 @@ title: "Tutorials"
       </div>
       <table class="table table-hover">
         <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
-            <td>Mon 2 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Mon 12 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Acceptance Notification</em>
+                <em class="text-primary">Proposal Abstract Due</em>
             </td>
         </tr>
         <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
@@ -119,10 +119,10 @@ title: "Tutorials"
                 <em class="text-primary">Full Proposal Due</em>
             </td>
         </tr>
-        <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
-            <td>Mon 12 May 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
+            <td>Mon 2 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Proposal Abstract Due</em>
+                <em class="text-primary">Acceptance Notification</em>
             </td>
         </tr>
       </table>
