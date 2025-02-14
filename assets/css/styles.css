@@ -22,6 +22,7 @@
   font-weight: bold;
   color: #0056b3; /* Deep blue */
   text-decoration: none;
+  margin-top: 10px;
   display: block;
 }
 
@@ -41,6 +42,6 @@
 .date {
   font-size: 14px;
   color: #555; /* Medium gray */
-  margin-top: 10px; /* Added extra space */
-  margin-bottom: 15px; /* Added space after the date */
+  margin-top: 5px; /* Added extra space */
+  margin-bottom: 10px; /* Added space after the date */
 }
