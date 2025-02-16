@@ -101,21 +101,21 @@ title: "Artifacts"
               <a href="#" class="navigate">Important Dates</a>
           </div>
       </div>
-      <table class="table table-hover">
+      <table class="table table-hover" id="important-dates">
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td> 6 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Jun 6, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
                 <em class="text-primary">Abstract Due</em>
             </td>
         </tr>
                 <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td> 23 Jun 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Jun 23, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
                 <em class="text-primary">Full Submission Due</em>
             </td>
         </tr>
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td> 11 Aug 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Aug 11, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
                 <em class="text-primary">Notification</em>
             </td>

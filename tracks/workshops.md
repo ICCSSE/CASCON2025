@@ -69,7 +69,7 @@ title: "Workshops"
                 <a href="#" class="navigate">Important Dates</a>
             </div>
         </div>
-        <table class="table table-hover">
+        <table class="table table-hover" id="important-dates">
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
                 <td>May 26, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                     <small><span class="glyphicon glyphicon-time"></span></small></span><br>

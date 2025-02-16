@@ -174,4 +174,32 @@
     })
   });
 </script>
+
+
+<!-- JavaScript to apply colors for deadlines -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const today = new Date(); // Get today's date
+      const rows = document.querySelectorAll("#important-dates tr");
+  
+      rows.forEach(row => {
+          let dateText = row.querySelector("td").childNodes[0].textContent.trim();
+          let dateParts = dateText.match(/\b(\w+)\s(\d{1,2}),\s(\d{4})\b/); // Extract date (e.g., May 26, 2025)
+  
+          if (dateParts) {
+              let parsedDate = new Date(`${dateParts[1]} ${dateParts[2]}, ${dateParts[3]}`);
+  
+              if (!isNaN(parsedDate.getTime())) {
+                  if (parsedDate < today) {
+                      row.style.backgroundColor = "#f3dede"; // Past deadline
+                      row.style.color = "red"
+                  } else {
+                      row.style.backgroundColor = "#dff0d8"; // Upcoming deadline
+                  }
+              }
+          }
+      });
+  });
+  </script>
+
   </head>
