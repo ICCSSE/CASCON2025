@@ -1,6 +1,6 @@
 ---
 layout: tracks
-title: "Research Tracks"
+title: "Research Track"
 ---
 
 <div id="content" class="container"><div class="row">
