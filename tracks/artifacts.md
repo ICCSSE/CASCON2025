@@ -1,6 +1,6 @@
 ---
 layout: tracks
-title: "Artifacts"
+title: "Artifacts Track"
 ---
 
 <div id="content" class="container"><div class="row">
