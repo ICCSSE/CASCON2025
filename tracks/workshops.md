@@ -1,6 +1,6 @@
 ---
 layout: tracks
-title: "Workshops"
+title: "Workshops Track"
 ---
 
 <div id="content" class="container"><div class="row">
