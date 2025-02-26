@@ -1,6 +1,6 @@
 ---
 layout: tracks
-title: "Research Track"
+title: "Technical Paper Track"
 ---
 
 <div id="content" class="container"><div class="row">
