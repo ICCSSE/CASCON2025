@@ -19,9 +19,22 @@
 
 <div class="conference-header">
     <div class="container">
-        <a href="{{ site.baseurl }}/" class="conference-title">
-            CASCON 2025
-        </a>
+        <div class="header-content">
+            <a href="{{ site.baseurl }}/" class="conference-title">
+                CASCON 2025
+            </a>
+            <div class="supporter-logos-header">
+                <a href="https://www.computer.org/" target="_blank">
+                    <img src="images/sponsors/IEEE.png" alt="IEEE Computer Society" class="supporter-logo-header">
+                </a>
+                <a href="https://tc.computer.org/tcse/" target="_blank">
+                    <img src="images/sponsors/TCSE.png" alt="IEEE Technical Community on Software Engineering" class="supporter-logo-header">
+                </a>
+                <a href="https://cscan-infocan.ca/" target="_blank">
+                    <img src="images/sponsors/CS-CAN.png" alt="CS-Can | Info-Can" class="supporter-logo-header">
+                </a>
+            </div>
+        </div>
         <div class="subtitle">
             35th IEEE International Conference on Collaborative Advances in Software and Computing
         </div>
@@ -39,4 +52,84 @@
     .conference-header {
         background: linear-gradient(135deg, #f4f4f4, #ebebeb); /* Elegant blue gradient */
     }
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conference-title {
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .supporter-logos-header {
+        display: flex;
+        gap: 15px;
+        margin-left: auto;
+        padding-top: 20px;
+    }
+    .supporter-logo-header {
+        height: 40px;
+        width: auto;
+    }
+    @media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conference-title {
+        font-size: 24px;
+        white-space: normal;
+    }
+
+    .supporter-logos-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding-top: 5px; /* Adds slight space */
+    }
+
+    .supporter-logo-header {
+        height: 35px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        /* max-width: 80px; */
+    }
+}
+
+}
 </style>
+
+
+<!-- <style>
+    .conference-header {
+        background: linear-gradient(135deg, #f4f4f4, #ebebeb);
+        padding: 20px 0;
+        text-align: center;
+    }
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conference-title {
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+    .supporter-logos {
+        display: flex;
+        gap: 15px;
+        margin-left: auto;
+    }
+    .supporter-logo {
+        height: 50px;
+        width: auto;
+    }
+</style> -->
