@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
+  
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/local_js/twitter-widget-ios-fix.js"></script>
@@ -201,5 +201,22 @@
       });
   });
   </script>
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const tabs = document.querySelectorAll("#customTabs .nav-link");
+          const tabContents = document.querySelectorAll(".tab-pane");
+  
+          tabs.forEach(tab => {
+              tab.addEventListener("click", function () {
+                  // Remove active class from all tabs and contents
+                  tabs.forEach(t => t.classList.remove("active"));
+                  tabContents.forEach(content => content.classList.remove("active"));
+  
+                  // Add active class to the clicked tab and its corresponding content
+                  this.classList.add("active");
+                  document.getElementById(this.getAttribute("data-target")).classList.add("active");
+              });
+          });
+      });
+  </script>
   </head>

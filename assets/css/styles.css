@@ -17,6 +17,11 @@
   margin: 0; /* Remove Bootstrap row negative margin */
 }
 
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .conference-title {
   font-size: 28px;
   font-weight: bold;
@@ -44,4 +49,60 @@
   color: #555; /* Medium gray */
   margin-top: 5px; /* Added extra space */
   margin-bottom: 10px; /* Added space after the date */
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #007bff;
+}
+
+.nav-tabs .nav-link {
+  margin: 2px;
+  border: none;
+  color: #327bb7;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+  background: #e3f2ff;
+}
+
+.nav-tabs .nav-link.active {
+  background: #327bb7;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Tab Content */
+
+.tab-pane {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.tab-pane.active {
+  display: block;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  #customTabs {
+      width: 100%;  /* Make the entire tab container 100% width */
+      display: flex;
+      flex-wrap: wrap;  /* Allow wrapping of tabs when space is tight */
+      justify-content: space-between;  /* Distribute buttons with full width */
+  }
+
+  #customTabs .nav-item {
+      width: 100%;  /* Each item takes up the full width */
+  }
+
+  #customTabs .nav-link {
+      width: 100%;  /* Make each button take up the full width of the container */
+      margin-right: 0;
+  }
 }
