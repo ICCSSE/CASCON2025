@@ -120,7 +120,7 @@ title: "Tutorials Track"
             </td>
         </tr>
                 <tr href="{{ site.baseurl }}/tracks/tutorials" class="clickable-row">
-            <td>Jun 2, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Jun 9, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
                 <em class="text-primary">Acceptance Notification</em>
             </td>

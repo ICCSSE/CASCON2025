@@ -15,8 +15,8 @@ title: "Workshops Track"
   </div>
 
 <!-- BODY-->
-  <p><span style="font-weight: 400;">We are excited to announce that this year IEEE CASCON 2025 will host a series of workshops. CASCON is a premier academic and industrial conference for advanced studies in computer science and software engineering. The workshops will provide a forum to present, discuss, and debate issues, problems, ideas, technology gaps, work-in-progress, and/or directions. The format of a workshop may include position papers, expert panels, hands-on exercises, and discussions. Workshops may be half-day or full-day.</span></p>
-    <p><span style="font-weight: 400;">Workshops can be structured around invited talks, and/or workshop paper presentations. The intent is to stir discussion and debate new ideas on emerging research areas, challenging problems, and industrial applications.</span></p>
+  <p><span style="font-weight: 400;">We are excited to announce that this year IEEE CASCON 2025 will host a series of workshops. CASCON is a premier academic and industrial conference for advanced studies in computer science and software engineering. The workshops will provide a forum to present, discuss, and debate issues, problems, ideas, technology gaps, work-in-progress, and/or directions. The format of a workshop may include position papers, expert panels and discussions. Workshops may be half-day or full-day.</span></p>
+    <p><span style="font-weight: 400;">Workshops can be structured around invited talks, panel discussions, and/or workshop paper presentations. The intent is to stir discussion and debate new ideas on emerging research areas, challenging problems, and industrial applications.</span></p>
     <ul>
     <li style="font-weight: 400;"><span style="font-weight: 400;">For workshops structured around invited talks, the organizers are expected to identify and invite experts in the field.</span></li>
     <li style="font-weight: 400;"><span style="font-weight: 400;">For workshops structured around workshop paper submissions, the organizers are expected to issue a call for papers which can be submitted through IEEE CASCON's EasyChair site.</span></li>
@@ -40,7 +40,7 @@ title: "Workshops Track"
     <p><span style="font-weight: 400;">NOTE</span></p>
     <ol>
     <li style="font-weight: 400;"><span style="font-weight: 400;">The workshop proposals will be published in the proceedings after a peer review.</span></li>
-    <li style="font-weight: 400;"><span style="font-weight: 400;">The organisers of the accepted Workshop based on invited talk will have the opportunity to write a 2-page summary of the activities and findings after the workshop is completed. This document will be published in the proceedings after a peer review.</span></li>
+    <li style="font-weight: 400;"><span style="font-weight: 400;">The organisers of the accepted workshop based on invited talk and pabel discussions will have the opportunity to write a 2-page summary of the activities and findings after the workshop is completed. This document will be published in the proceedings after a peer review.</span></li>
     <li style="font-weight: 400;"><span style="font-weight: 400;">Accepted workshop papers can be published in the proceedings and submitted for inclusion to IEEE Xplore. This will depend on the discretion of each workshop organizer. Papers must thus be in the same format as the conference proceedings and may not be more than 6 pages in length. All papers must be reviewed by an International Technical Program Committee with a minimum of 3 reviews per paper.</span></li>
     </ol>
    
@@ -71,9 +71,15 @@ title: "Workshops Track"
         </div>
         <table class="table table-hover" id="important-dates">
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
-                <td>May 26, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <td>May 12, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                     <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                    <em class="text-primary">Proposal Submission Deadline</em>
+                    <em class="text-primary">Proposal Abstract Submission Deadline</em>
+                </td>
+            </tr>
+            <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">
+                <td>May 19, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                    <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                    <em class="text-primary">Proposal Full Submission Deadline</em>
                 </td>
             </tr>
             <tr href="{{ site.baseurl }}/tracks/workshops" class="clickable-row">

@@ -102,21 +102,27 @@ title: "Artifacts Track"
       </div>
       <table class="table table-hover" id="important-dates">
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td>Jun 6, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Aug 18, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
                 <em class="text-primary">Abstract Due</em>
             </td>
         </tr>
                 <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td>Jun 23, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Aug 25, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Full Submission Due</em>
+                <em class="text-primary">Full Paper Submission Due</em>
             </td>
         </tr>
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
-            <td>Aug 11, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+            <td>Sep 29, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Notification</em>
+                <em class="text-primary">Acceptance Notification</em>
+            </td>
+        </tr>
+        <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
+            <td>Nov 10-13, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
+                <small><span class="glyphicon glyphicon-time"></span></small></span><br>
+                <em class="text-primary">Technical Paper Presentation</em>
             </td>
         </tr>
       </table>
