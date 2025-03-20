@@ -156,7 +156,7 @@ title: "Artifacts Track"
           </div>
       </div>
       <div class="panel-body text-center">
-          <a href="https://easychair.org/conferences?conf=cascon2025"><em>https://easychair.org/conferences?conf=cascon2025</em>
+          <a href="https://easychair.org/conferences?conf=cascon2025">https://easychair.org/conferences?conf=cascon2025
       </div>
     </div> 
 </div>
