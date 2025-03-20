@@ -104,13 +104,13 @@ title: "Artifacts Track"
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
             <td>Aug 18, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Abstract Due</em>
+                <em class="text-primary">Submission Registration Due</em>
             </td>
         </tr>
                 <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
             <td>Aug 25, 2025 <span title="" data-original-title="Timezone: AoE (UTC-12h)">
                 <small><span class="glyphicon glyphicon-time"></span></small></span><br>
-                <em class="text-primary">Full Paper Submission Due</em>
+                <em class="text-primary">Full Submission Due</em>
             </td>
         </tr>
         <tr href="{{ site.baseurl }}/tracks/artifacts" class="clickable-row">
