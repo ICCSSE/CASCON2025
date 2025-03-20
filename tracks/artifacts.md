@@ -86,7 +86,7 @@ title: "Artifacts Track"
 <li style="font-weight: 400;"><span style="font-weight: 400;">Register the repository at Zenodo.org. For details on that process, see </span><a href="https://guides.github.com/activities/citable-code"><span style="font-weight: 400;">Citable Code Guidelines</span></a><span style="font-weight: 400;">.</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Make a release at Github, at which time Zenodo will automatically grab a copy of that repository and issue a Digital Object Identifier (DOI) e.g. </span><a href="https://doi.org/10.5281/zenodo.4308746"><span style="font-weight: 400;">https://doi.org/10.5281/zenodo.4308746</span></a><span style="font-weight: 400;">.</span></li>
 </ul>
-<p><span style="font-weight: 400;">For the &ldquo;Research Object Reviewed&rdquo;: Artifacts do not necessarily have to be publicly accessible for the review process if the goal is only the &ldquo;Research Object Reviewed&rdquo; badge. In this case, the authors are asked to provide a private link or a password-protected link.</span></p>
+<p><span style="font-weight: 400;"><b>For the &ldquo;Research Object Reviewed&rdquo;: </b>Artifacts do not necessarily have to be publicly accessible for the review process if the goal is only the &ldquo;Research Object Reviewed&rdquo; badge. In this case, the authors are asked to provide a private link or a password-protected link.</span></p>
 
 
 </div>
