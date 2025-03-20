@@ -133,5 +133,19 @@ title: "Workshops Track"
     </div> 
 </div>
 
+<!-- SUBMISSION LINK SIDEBAR -->
+<div class="col-sm-4 col-sm-offset-1 sidebar">
+    <div class="panel panel-primary">
+      <div class="panel-heading clearfix">
+          <div class="panel-title">
+              <span class="glyphicon glyphicon-upload"></span> 
+              <a href="#" class="navigate">Submission Link</a>
+          </div>
+      </div>
+      <div class="panel-body text-center">
+          <a href="https://easychair.org/conferences?conf=cascon2025"><em>https://easychair.org/conferences?conf=cascon2025</em></a>
+      </div>
+    </div> 
+</div>
 
 </div>
