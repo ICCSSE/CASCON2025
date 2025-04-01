@@ -109,7 +109,7 @@ title: "Workshops Track"
             </div>
         </div>
         <div class="panel-body">
-            To submit a workshop proposal, please access <strong>[TODO: add link]</strong> and select: <strong>"Workshops"</strong>.<br><br>
+            To submit a workshop proposal, please access <a href="https://easychair.org/conferences?conf=cascon2025" target="_blank">https://easychair.org/conferences?conf=cascon2025</a> and select: <strong>"Workshops"</strong>.<br><br>
             Proposals for workshops should be organized as a preliminary call for papers or call for participation, depending on the intended format of the workshop, with a maximum of two pages.<br><br>
             More details can be found at: <a href="https://cascon.ca/tracks/workshops/" target="_blank">https://cascon.ca/tracks/workshops</a>
         </div>
