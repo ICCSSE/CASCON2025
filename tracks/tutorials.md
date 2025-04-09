@@ -15,7 +15,7 @@ title: "Tutorials Track"
 
 <!-- BODY-->
 <p><span style="font-weight: 400;">IEEE CASCON is a premier conference for advanced research in computer science and software engineering. The </span><strong>IEEE</strong> <strong>CASCON 2025 Tutorial Track</strong><span style="font-weight: 400;"> provides an excellent opportunity for researchers, practitioners, and technology experts to share cutting-edge solutions, emerging trends, and innovative tools with the broader community.&nbsp;</span></p>
-<p><span style="font-weight: 400;">We invite proposals for </span><strong>half-day or full-day tutorials</strong><span style="font-weight: 400;"> on topics relevant to IEEE CASCON attendees. Tutorials should be designed to educate and engage participants, offering demos and/or hands-on experience on state-of-the-art tools or emerging technologies, or deep dives into advanced research methodology or industrial best practices.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We invite proposals for </span><strong>1.5 hours, half-day or full-day tutorials</strong><span style="font-weight: 400;"> on topics relevant to IEEE CASCON attendees. Tutorials should be designed to educate and engage participants, offering lectures, demos and/or hands-on experience on state-of-the-art tools or emerging technologies, or deep dives into advanced research methodology or industrial best practices.&nbsp;</span></p>
 <p><span style="font-weight: 400;">Accepted tutorial proposals will be included in the conference proceedings published in IEEE Xplore.&nbsp;</span></p>
 <p><span style="font-weight: 400;">&nbsp;</span></p>
 <p><strong>Submission Guidelines</strong><span style="font-weight: 400;">&nbsp;</span></p>
@@ -26,7 +26,7 @@ title: "Tutorials Track"
 <li><strong>Title</strong> <span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">&nbsp;</span></li>
 <li><strong>Tutorial Length</strong> <span style="font-weight: 400;">&nbsp;</span>
 <ul>
-<li><span style="font-weight: 400;">Indicate whether the tutorial is half-day (3.5 hours) or full-day (6 or 7.5 hours). </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Indicate whether the tutorial is 1.5 hours, half-day (3.5 hours) or full-day (6 or 7.5 hours). We recommend that the 1.5-hour option is intended for lecture- or demo-style tutorials without hands-on components due to the time constraints</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">&nbsp;</span></li>
 </ul>
 </li>
 <li><strong>Abstract</strong><span style="font-weight: 400;">&nbsp;</span>
@@ -140,7 +140,7 @@ title: "Tutorials Track"
           </div>
       </div>
       <div class="panel-body">
-          To submit a tutorial proposal, please visit <strong>TBD</strong> and select <strong>Tutorial Proposal Submission</strong>.<br><br>
+          To submit a tutorial proposal, please visit <strong><a href="https://easychair.org/conferences?conf=cascon2025"><em>https://easychair.org/conferences?conf=cascon2025</em></a></strong> and select <strong>Tutorial Proposal Submission</strong>.<br><br>
           For any questions, please contact the tutorial chairs:<br><br>
           <strong>Yuan Tian</strong>, Queen’s University<br>
           <strong>Robert Enenkel</strong>, IBM Canada<br><br>
@@ -163,5 +163,75 @@ title: "Tutorials Track"
       </div>
     </div> 
 </div>
+
+<div class="col-sm-4 col-sm-offset-1 sidebar">
+  <div class="panel panel-primary">
+    <div class="panel-heading clearfix">
+      <div class="panel-title">
+        <a href="#" class="navigate">
+          PC Members
+        </a>
+      </div>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate">
+              <h5 class="media-heading">Samuel A. Ajila</h5>
+            </a>
+            <h5 class="media-heading text-black">Carleton University</h5>
+            <h5 class="media-heading text-black">samuelajila@cunet.carleton.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate">
+              <h5 class="media-heading">Shaowei Wang</h5>
+            </a>
+            <h5 class="media-heading text-black">University of Manitoba</h5>
+            <h5 class="media-heading text-black">shaowei.wang@umanitoba.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate">
+              <h5 class="media-heading">Joe Wigglesworth</h5>
+            </a>
+            <h5 class="media-heading text-black">IBM Canada Laboratories</h5>
+            <h5 class="media-heading text-black">wiggles@ca.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate">
+              <h5 class="media-heading">Heng Li</h5>
+            </a>
+            <h5 class="media-heading text-black">Polytechnique Montréal</h5>
+            <h5 class="media-heading text-black">heng.li@polymtl.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate">
+              <h5 class="media-heading">Cor-Paul Bezemer</h5>
+            </a>
+            <h5 class="media-heading text-black">University of Alberta</h5>
+            <h5 class="media-heading text-black">bezemer@ualberta.ca</h5>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
 </div>

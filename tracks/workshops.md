@@ -148,4 +148,139 @@ title: "Workshops Track"
     </div> 
 </div>
 
+<div class="col-sm-4 col-sm-offset-1 sidebar">
+  <div class="panel panel-primary">
+    <div class="panel-heading clearfix">
+      <div class="panel-title">
+        <a href="#" class="navigate">
+          PC Members
+        </a>
+      </div>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Vijay Sundaresan</h5></a>
+            <h5 class="media-heading text-black">vijaysun@ca.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Daryl Maier</h5></a>
+            <h5 class="media-heading text-black">maier@ca.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Lan Xia</h5></a>
+            <h5 class="media-heading text-black">lan_xia@ca.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Mark Stoodley</h5></a>
+            <h5 class="media-heading text-black">mstoodle@ca.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Song Wang</h5></a>
+            <h5 class="media-heading text-black">wangsong@yorku.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Alvine Boaye Belle</h5></a>
+            <h5 class="media-heading text-black">alvine.belle@lassonde.yorku.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Raphael Khoury</h5></a>
+            <h5 class="media-heading text-black">raphael.khoury@uqo.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Khosro Salmani</h5></a>
+            <h5 class="media-heading text-black">ksalmani@mtroyal.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Hung Viet Pham</h5></a>
+            <h5 class="media-heading text-black">hvpham@yorku.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Longyu Zhang</h5></a>
+            <h5 class="media-heading text-black">z.longyu@gmail.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Furkan Alaca</h5></a>
+            <h5 class="media-heading text-black">furkan.alaca@queensu.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Ann Barcomb</h5></a>
+            <h5 class="media-heading text-black">ann.barcomb@ucalgary.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Ashish Ghodasara</h5></a>
+            <h5 class="media-heading text-black">acghodas@us.ibm.com</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">Ahmad Abdellatif</h5></a>
+            <h5 class="media-heading text-black">ahmad.abdellatif@ucalgary.ca</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-body">
+            <a href="#" class="navigate"><h5 class="media-heading">AbdelRahman Abdou</h5></a>
+            <h5 class="media-heading text-black">abdou@scs.carleton.ca</h5>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
 </div>
