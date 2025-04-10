@@ -181,7 +181,7 @@ title: "Tutorials Track"
               <h5 class="media-heading">Samuel A. Ajila</h5>
             </a>
             <h5 class="media-heading text-black">Carleton University</h5>
-            <h5 class="media-heading text-black">samuelajila@cunet.carleton.ca</h5>
+<!--             <h5 class="media-heading text-black">samuelajila@cunet.carleton.ca</h5> -->
           </div>
         </div>
       </li>
@@ -192,7 +192,7 @@ title: "Tutorials Track"
               <h5 class="media-heading">Shaowei Wang</h5>
             </a>
             <h5 class="media-heading text-black">University of Manitoba</h5>
-            <h5 class="media-heading text-black">shaowei.wang@umanitoba.ca</h5>
+<!--             <h5 class="media-heading text-black">shaowei.wang@umanitoba.ca</h5> -->
           </div>
         </div>
       </li>
@@ -203,7 +203,7 @@ title: "Tutorials Track"
               <h5 class="media-heading">Joe Wigglesworth</h5>
             </a>
             <h5 class="media-heading text-black">IBM Canada Laboratories</h5>
-            <h5 class="media-heading text-black">wiggles@ca.ibm.com</h5>
+<!--             <h5 class="media-heading text-black">wiggles@ca.ibm.com</h5> -->
           </div>
         </div>
       </li>
@@ -214,7 +214,7 @@ title: "Tutorials Track"
               <h5 class="media-heading">Heng Li</h5>
             </a>
             <h5 class="media-heading text-black">Polytechnique Montréal</h5>
-            <h5 class="media-heading text-black">heng.li@polymtl.ca</h5>
+<!--             <h5 class="media-heading text-black">heng.li@polymtl.ca</h5> -->
           </div>
         </div>
       </li>
@@ -225,7 +225,7 @@ title: "Tutorials Track"
               <h5 class="media-heading">Cor-Paul Bezemer</h5>
             </a>
             <h5 class="media-heading text-black">University of Alberta</h5>
-            <h5 class="media-heading text-black">bezemer@ualberta.ca</h5>
+<!--             <h5 class="media-heading text-black">bezemer@ualberta.ca</h5> -->
           </div>
         </div>
       </li>
