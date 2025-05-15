@@ -3,4 +3,15 @@ layout: home
 title: "CASCON 2025"
 ---
 
-ge;wtljl
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    window.location.replace("https://conf.researchr.org/home/cascon-2025");
+  </script>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>If you're not redirected, <a href="https://conf.researchr.org/home/cascon-2025">click here</a>.</p>
+</body>
+</html>
