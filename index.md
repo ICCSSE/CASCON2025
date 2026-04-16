@@ -5,7 +5,7 @@ title: "CASCON"
 
 <div class="page-content">
 
-  <div style="max-width: 1060px; width: 100%; margin-top: 32px; margin-bottom: 28px; animation: fade-in-up 0.8s ease-out 0.1s both;">
+  <div style="max-width: 1060px; width: 100%; margin-top: 12px; margin-bottom: 28px; animation: fade-in-up 0.8s ease-out 0.1s both;">
     <div style="background: var(--bg-white); border: 1px solid var(--border-subtle); border-radius: 18px; padding: 32px 36px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
       <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: 14px;">
         International Conference on Collaborative Advances in Software and COmputiNg (CASCON) is a premier academic and industrial conference where attendees can explore cutting-edge research, trailblazing practices, and collaboration opportunities in software and computing.
