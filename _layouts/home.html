@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: "CASCON" }} — Annual International Conference on Computer Science and Software Engineering</title>
+    <meta name="description" content="CASCON is the Annual International Conference on Computer Science and Software Engineering. Explore CASCON 2024, 2025, and 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --cascon-red: #C4262E;
+        --cascon-red-light: #fee2e2;
+        --cascon-blue-deep: #1a3a6b;
+        --cascon-blue-mid: #2b6cb0;
+        --cascon-blue-light: #63b3ed;
+        --cascon-blue-sky: #90cdf4;
+        --bg-page: #f8fafc;
+        --bg-white: #ffffff;
+        --text-primary: #1a202c;
+        --text-secondary: #64748b;
+        --text-muted: #94a3b8;
+        --border-subtle: #e2e8f0;
+        --border-hover: #cbd5e1;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+        --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+        --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: var(--bg-page);
+        color: var(--text-primary);
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* Subtle background */
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background:
+          radial-gradient(ellipse 80% 50% at 50% -10%, rgba(43, 108, 176, 0.05), transparent),
+          radial-gradient(ellipse 60% 40% at 80% 90%, rgba(196, 38, 46, 0.03), transparent),
+          radial-gradient(ellipse 50% 50% at 20% 70%, rgba(99, 179, 237, 0.04), transparent);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      /* ── Top Navigation Bar ── */
+      .topnav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border-subtle);
+      }
+
+      .topnav-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+      }
+
+      .topnav-brand {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        text-decoration: none;
+        letter-spacing: -0.01em;
+      }
+
+      .topnav-brand span {
+        color: var(--cascon-red);
+      }
+
+      .brand-subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.78rem;
+        font-weight: 400;
+        color: var(--text-secondary);
+        letter-spacing: 0;
+      }
+
+      .topnav-links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        list-style: none;
+      }
+
+      .topnav-links a {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        text-decoration: none;
+        padding: 6px 14px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+      }
+
+      .topnav-links a:hover {
+        color: var(--text-primary);
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      .topnav-links a.active {
+        color: var(--cascon-red);
+        background: rgba(196, 38, 46, 0.06);
+      }
+
+      /* Mobile hamburger */
+      .topnav-toggle {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        color: var(--text-primary);
+      }
+
+      .topnav-toggle svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      /* ── Main Content ── */
+      .container {
+        position: relative;
+        z-index: 1;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .page-content {
+        min-height: calc(100vh - 56px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Hero section */
+      .hero {
+        text-align: center;
+        margin-bottom: 56px;
+        animation: fade-in-up 0.8s ease-out;
+      }
+
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(24px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .hero-title {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 3.2rem;
+        font-weight: 800;
+        color: var(--text-primary);
+        letter-spacing: -0.02em;
+        margin-bottom: 14px;
+        line-height: 1.1;
+      }
+
+      .hero-title span {
+        background: linear-gradient(135deg, var(--cascon-red), #e63946);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hero-subtitle {
+        font-size: 1.15rem;
+        color: var(--text-secondary);
+        max-width: 560px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+      /* Conference cards grid */
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+        width: 100%;
+        max-width: 1060px;
+        animation: fade-in-up 0.8s ease-out 0.15s both;
+      }
+
+      .card {
+        position: relative;
+        background: var(--bg-white);
+        border: 1px solid var(--border-subtle);
+        border-radius: 18px;
+        padding: 40px 32px 36px;
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+      }
+
+      .card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 3px;
+        border-radius: 16px 16px 0 0;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+      }
+
+      .card--2024::before { background: linear-gradient(90deg, var(--cascon-blue-mid), var(--cascon-blue-light)); }
+      .card--2025::before { background: linear-gradient(90deg, var(--cascon-red), #e63946); }
+      .card--2026::before { background: linear-gradient(90deg, var(--cascon-blue-sky), var(--cascon-blue-light)); }
+
+      .card:hover {
+        border-color: var(--border-hover);
+        transform: translateY(-6px);
+        box-shadow: var(--shadow-lg);
+      }
+      .card:hover::before { opacity: 1; }
+
+      /* Placeholder logo */
+      .card-logo {
+        width: 96px;
+        height: 96px;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+      }
+
+      .card--2024 .card-logo { background: linear-gradient(135deg, #ebf5ff, #dbeafe); border: 1px solid rgba(43,108,176,0.1); }
+      .card--2025 .card-logo { background: linear-gradient(135deg, #fef2f2, #fee2e2); border: 1px solid rgba(196,38,46,0.1); }
+      .card--2026 .card-logo { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border: 1px solid rgba(144,205,244,0.15); }
+
+      .card-logo img { width: 76px; height: 76px; object-fit: contain; }
+
+      .card-logo svg { width: 52px; height: 52px; }
+      .card--2024 .card-logo svg { color: var(--cascon-blue-mid); }
+      .card--2025 .card-logo svg { color: var(--cascon-red); }
+      .card--2026 .card-logo svg { color: var(--cascon-blue-light); }
+
+      .card-year {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 800;
+        margin-bottom: 6px;
+        line-height: 1;
+        transition: transform 0.3s ease;
+      }
+
+      .card--2024 .card-year { color: var(--cascon-blue-mid); }
+      .card--2025 .card-year { color: var(--cascon-red); }
+      .card--2026 .card-year { color: var(--cascon-blue-light); }
+
+      .card:hover .card-year { transform: scale(1.05); }
+
+      .card-label {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 14px;
+      }
+
+      .card-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 5px 14px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
+
+      .card-status--past {
+        background: rgba(43,108,176,0.08);
+        color: var(--cascon-blue-mid);
+        border: 1px solid rgba(43,108,176,0.12);
+      }
+
+      .card-status--current {
+        background: rgba(196,38,46,0.06);
+        color: var(--cascon-red);
+        border: 1px solid rgba(196,38,46,0.12);
+      }
+
+      .card-status--current .status-dot {
+        width: 6px; height: 6px;
+        border-radius: 50%;
+        background: var(--cascon-red);
+        animation: pulse-dot 2s ease-in-out infinite;
+      }
+
+      @keyframes pulse-dot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.4); }
+      }
+
+      .card-description {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        line-height: 1.65;
+        margin-bottom: 28px;
+        flex-grow: 1;
+      }
+
+      .card-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .card--2024 .card-cta { color: var(--cascon-blue-mid); }
+      .card--2025 .card-cta { color: var(--cascon-red); }
+      .card--2026 .card-cta { color: var(--cascon-blue-light); }
+
+      .card-cta .arrow {
+        transition: transform 0.3s ease;
+        font-size: 1.1rem;
+      }
+      .card:hover .card-cta .arrow { transform: translateX(4px); }
+
+      /* ── Steering Committee Section ── */
+      .section-committee {
+        width: 100%;
+        max-width: 980px;
+        margin: 20px auto 0;
+        animation: fade-in-up 0.8s ease-out 0.3s both;
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .section-header h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 8px;
+      }
+
+      .section-header p {
+        font-size: 0.95rem;
+        color: var(--text-secondary);
+      }
+
+      .committee-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+      }
+
+      .member-card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background: var(--bg-white);
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        padding: 18px 20px;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.25s ease;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .member-card:hover {
+        border-color: var(--border-hover);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+      }
+
+      .member-avatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
+        object-fit: cover;
+        flex-shrink: 0;
+        background: linear-gradient(135deg, #ebf5ff, #dbeafe);
+      }
+
+      .member-info h3 {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 3px;
+        line-height: 1.3;
+      }
+
+      .member-info p {
+        font-size: 0.82rem;
+        color: var(--text-secondary);
+        line-height: 1.4;
+      }
+
+      /* Footer */
+      .footer {
+        margin-top: 72px;
+        padding-bottom: 40px;
+        text-align: center;
+      }
+
+      .footer-text {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        letter-spacing: 0.03em;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .cards-grid {
+          grid-template-columns: 1fr;
+          max-width: 400px;
+          gap: 16px;
+        }
+
+        .hero-title { font-size: 2rem; }
+        .hero { margin-bottom: 36px; }
+        .hero-subtitle { font-size: 0.95rem; }
+
+        .card { padding: 28px 24px 24px; }
+        .card-year { font-size: 1.6rem; }
+
+        .topnav-links { display: none; }
+        .brand-subtitle { display: none; }
+        .topnav-links.open {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 56px;
+          left: 0; right: 0;
+          background: rgba(255,255,255,0.97);
+          backdrop-filter: blur(12px);
+          border-bottom: 1px solid var(--border-subtle);
+          padding: 12px 24px;
+          gap: 4px;
+        }
+        .topnav-toggle { display: block; }
+
+        .committee-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .section-committee { margin-top: 48px; }
+        .footer { margin-top: 48px; }
+      }
+
+      @media (max-width: 480px) {
+        .container { padding: 0 16px; }
+        .topnav-inner { padding: 0 16px; }
+        .hero-title { font-size: 1.7rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Navigation -->
+    <nav class="topnav" id="topnav">
+      <div class="topnav-inner">
+        <a href="{{ '/' | relative_url }}" class="topnav-brand"><span>CASCON</span></a>
+        <button class="topnav-toggle" onclick="document.getElementById('nav-links').classList.toggle('open')" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+        <ul class="topnav-links" id="nav-links">
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/steering-committee' | relative_url }}">Steering Committee</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text">© 2025 CASCON — All Rights Reserved</p>
+      <p class="footer-text" style="margin-top: 6px; opacity: 0.6;">Designed by <a href="https://www.linkedin.com/in/5hayan/" target="_blank" style="color: var(--cascon-blue-mid); text-decoration: none;">Shayan Noei</a></p>
+    </footer>
+
+    <script>
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('#nav-links a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          document.getElementById('nav-links').classList.remove('open');
+        });
+      });
+    </script>
+  </body>
+</html>
