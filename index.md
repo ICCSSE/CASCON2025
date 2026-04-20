@@ -36,7 +36,7 @@ title: "CASCON"
         <span class="status-dot"></span>
         Upcoming
       </span>
-      <p class="card-description">Toronto, Ontario, Canada</p>
+      <p class="card-description">Toronto, Canada</p>
       <span class="card-cta">Visit Website <span class="arrow">→</span></span>
     </a>
 
