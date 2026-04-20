@@ -34,10 +34,10 @@ title: "CASCON"
       <span class="card-label">CASCON 2026</span>
       <span class="card-status card-status--current">
         <span class="status-dot"></span>
-        Coming Soon
+        Upcoming
       </span>
-      <p class="card-description"></p>
-      <span class="card-cta">Learn More <span class="arrow">→</span></span>
+      <p class="card-description">Toronto, Ontario, Canada</p>
+      <span class="card-cta">Visit Website <span class="arrow">→</span></span>
     </a>
 
     <a href="https://conf.researchr.org/home/cascon-2025" class="card card--2025" id="card-2025">
